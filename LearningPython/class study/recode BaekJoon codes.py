@@ -17,7 +17,6 @@ def BFS(num):
                 result.append(i)
                 visited[i]=0
 
-
 import sys
 N, M,V = map(int, sys.stdin.readline().split())
 #N이 정점 개수, M이 간선 개수, V가 시작정점 이라고 생각하고 그래프를 그리는 것이라고 생각하고 코딩 시작.
@@ -33,3 +32,6 @@ for i in range(M):
     ablist[a][b] =1
     ablist[b][a] =1
 
+DFS(V)
+print()
+BFS(V)
