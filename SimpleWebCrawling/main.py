@@ -11,6 +11,7 @@
 
 #Crawling way_2
 import requests
+import sys
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'}
@@ -22,4 +23,12 @@ i=1
 for item in data:
     print(str(i)+"위: "+item.get_text())
     i+=1
+i=1
+sys.stdout = open("Result_crawling.txt","w")
+for item in data:
+    print(str(i)+"위: "+item.get_text())
+    i+=1
+
+
+
 
