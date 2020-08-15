@@ -28,7 +28,7 @@ sys.stdout = open("Result_crawling.txt","w")
 for item in data:
     print(str(i)+"위: "+item.get_text())
     i+=1
-
+sys.stdout.close()
 
 
 
