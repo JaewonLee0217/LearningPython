@@ -14,7 +14,7 @@ depMTree.fit(X_train,y_train)
 
 #깊이 제한한 모델의 점수 출력
 print()
-print("case7_(criterion = entropy, max_depth: 2)")
+print("case5_(criterion = entropy, max_depth: 4)")
 print("Train Set Score1: {:.2f}".format(depMTree.score(X_train,y_train)))
 print("Test Set Score1: {:.2f}".format(depMTree.score(X_test,y_test)))
 
