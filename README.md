@@ -8,6 +8,4 @@
 
 -관련 툴 라이브러리 학습 및 구현
 
--테스트
-
-SKitlearn study
+-Daily code
