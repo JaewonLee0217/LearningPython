@@ -9,3 +9,5 @@
 -관련 툴 라이브러리 학습 및 구현
 
 -Greedy/Search
+
+-Np Hard
