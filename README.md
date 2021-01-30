@@ -10,7 +10,7 @@
 
     -PEP Style code practice
     
-    -Numpy & Pandas
+    -Numpy & Pandas 
     
-    -Data science 
+    -Crawl
 
